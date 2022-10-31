@@ -10,6 +10,7 @@
     <tr>
       <th scope="col">Post Number</th>
       <th scope="col">Title</th>
+      <th scope="col">Slug</th>
       <th scope="col">Posted By</th>
       <th scope="col">Created At</th>
       <th scope="col">Actions</th>
@@ -20,6 +21,7 @@
       <tr>
         <td>{{$post->id}}</th>
         <td>{{$post->title}}</td>
+        <td>{{$post->slug}}</td>
         <td>{{$post-> user -> name}}</td>
         <td>{{$post-> created_at -> format('y-m-d')}}</td>
         <td>
